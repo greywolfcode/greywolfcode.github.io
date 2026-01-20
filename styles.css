@@ -1,7 +1,23 @@
-body {
+html, body{
+    height: 100%;
+}
+
+
+#main {
     margin:0;
     
     background-image: url("./images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+};
+
+#games {
+    margin:0;
+    
+    background-image: url("./images/gamesBG.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
