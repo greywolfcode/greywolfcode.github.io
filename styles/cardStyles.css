@@ -64,6 +64,10 @@ a {
     background-color: #c1759b;
     font-family: MedievalSharp;
 }
+#dungeonCrawler {
+    background-color: #000000;
+    color: white;
+}
 #Printables {
     background-color: #404040;
 }
@@ -72,6 +76,14 @@ a {
     color: white;
 }
 #TodoPad {
+    background-color: #000000;
+    color: white;
+}
+#Microlang {
+    background-color: #1f1e1e;
+    color: white;
+}
+#imgToText {
     background-color: #000000;
     color: white;
 }
