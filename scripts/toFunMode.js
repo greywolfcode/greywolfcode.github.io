@@ -11,7 +11,7 @@ function getKeyPress(event)
         {
             if (currentString == "LetsHaveFun") //go to serious mode page if string is matched
             {
-                location.href = 'index.html';
+                location.href = '../index.html'; //needs to go up a level because seriousMode.html is down a levelS
             }
         }
     else if (pattern.test(event.key) && event.key.length == 1) //only want a-z, A-Z, and 0-9 to be valid inputs
