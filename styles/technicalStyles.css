@@ -6,7 +6,7 @@ html, body{
 #games {
     margin:0;
     
-    background-image: url("../assets/images/gamesBG.png");
+    background-image: url("../assets/images/backgrounds/gamesBG.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

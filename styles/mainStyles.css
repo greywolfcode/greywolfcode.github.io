@@ -8,14 +8,33 @@ html, body{
 #main {
     margin:0;
     
-    background-image: url("../assets/images/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
 };
-
+/* container is relative to allow buttons to move */
+#buttonContainer {
+    position: relative;
+    width: 100%
+}
+#background {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+/* Button specific positions */
+#gamesButton {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+}
+#technicalButton {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+}
 
 
 
