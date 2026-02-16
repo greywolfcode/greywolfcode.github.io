@@ -25,6 +25,11 @@ html, body{
     display: block;
 }
 /* Button specific positions */
+#aboutButton {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
 #gamesButton {
     position: absolute;
     left: 60%;
@@ -35,6 +40,12 @@ html, body{
     left: 80%;
     top: 50%;
 }
+#hardwareButton {
+    position: absolute;
+    left: 80%;
+    top: 75%;
+}
+
 
 
 
