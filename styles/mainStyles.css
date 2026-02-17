@@ -25,6 +25,13 @@ html, body{
     display: block;
 }
 /* Button specific positions */
+#themeButton {
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    background-color: transparent;
+    border-color: transparent;
+}
 #aboutButton {
     position: absolute;
     left: 5%;

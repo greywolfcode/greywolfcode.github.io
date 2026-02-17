@@ -5,12 +5,17 @@
 	<title>greywolfcode</title>
 	<link rel="icon" type="image/x-icon" href="./assets/images/icons/favicon.png">
 	<link rel="stylesheet" href="./styles/mainStyles.css">
+
 	<script src="scripts/toSeriousMode.js"></script>
+	<script src="scripts/themes.js"></script>
 </head>
 <body>
 	<div id="main">
 		<div id="buttonContainer">
-			<img src="./assets/images/backgrounds/bg.png" id="background">
+			<button type="button" id="themeButton">
+				<img src="./assets/images/buttons/lightswitchDark.png", alt="theme button" data-src-dark="./assets/images/buttons/lightswitchDark.png" data-src-light="./assets/images/buttons/lightswitchLight.png" data-themed>
+			</button>
+			<img src="./assets/images/backgrounds/bgDark.png" id="background" data-src-dark="./assets/images/backgrounds/bgDark.png" data-src-light="./assets/images/backgrounds/bgLight.png" data-themed>
 			<a href="./pages/about.html">
 				<img src="./assets/images/icons/favicon.png" alt="about Button" id="aboutButton">
 			</a>
