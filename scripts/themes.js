@@ -85,7 +85,10 @@ function setup()
 {
     theme = getTheme();
     const themeButton = document.getElementById("themeButton");
-    themeButton.addEventListener("click", onThemeButton);
+    if (themeButton !== null)
+    {
+        themeButton.addEventListener("click", onThemeButton);
+    }
 }
 //add event listeners
 document.addEventListener("DOMContentLoaded", setup);
